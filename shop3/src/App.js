@@ -21,15 +21,14 @@ function App() {
     return <Router>
     <nav>
       <Link to ="/about" className='link'>About </Link>
-  <Link to ="/home" className='link'> Home </Link>
-  <Link to ="/shop" className='link'> Shop </Link>
+  <Link to ="/" className='link'> Home </Link>
   <Link to ="/contsctUs" className='link'> Contact Us </Link>
   
       </nav>
       <Routes>
         <Route path='/about' element ={<About/>}/>
-        <Route path='/home' element ={<Home/>}/>
-        <Route path='/contsct' element ={<Contact/>}/>
+        <Route path='/' element ={<Home/>}/>
+        <Route path='/contact' element ={<Contact/>}/>
         
       </Routes>
       </Router>

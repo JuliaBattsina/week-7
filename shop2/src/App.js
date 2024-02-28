@@ -10,7 +10,7 @@ function App() {
  return (
   <div>
     
-    <Dogs apple= {dogs}/>
+    <Dogs  dogsList= {dogs}/>
   </div>
   );
 }

@@ -1,8 +1,8 @@
-function Dogs ({apple}) {
+function Dogs ({ dogsList}) {
     return (
         <div>
-            {apple.map(apple => {
-                const {id, image} = apple;
+            { dogsList.map( dogsList => {
+                const {id, image} = dogsList;
                 return (
                     <div key = {id}>
                         <p>{id}</p>

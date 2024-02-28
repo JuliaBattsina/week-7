@@ -14,14 +14,15 @@ import {
 import Shop from './Shop';
 import Home from './Home';
 import About from './About';
-import ContactUs from './ContactUs';
+import ContactUs from './Contact';
 import Team from "./Team"
 import "./App.css";
 
 function App() {
   return <Router>
   <nav>
-    <Link to ="/about" className='link'>About </Link>
+  <Link to ="/" className='link'>First page </Link>
+<Link to ="/about" className='link'>About </Link>
 <Link to ="/home" className='link'> Home </Link>
 <Link to ="/shop" className='link'> Shop </Link>
 <Link to ="/contsctUs" className='link'> Contact Us </Link>
